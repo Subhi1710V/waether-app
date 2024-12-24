@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: #90e0ef;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.weather_form{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#City{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 300px;
+    font-size: 20px;
+    border: none;
+
+}
+button{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 150px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #fcbf49;
+}
+button:hover{
+    background-color: #eda81d;
+    box-shadow: 1px 2px 5px 2px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    height: 400px;
+    width: 400px;
+    background:linear-gradient(90deg,#00b4d8,#90e0ef,#0077b6);
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 3px 5px 3px;
+    
+}
+/* p{
+    margin: 10px;
+    padding: 5px;
+    font-weight: bold;
+} */
+.temperature{
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+    font-weight: bold;
+}
+.humid{
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+    font-weight: bold;
+}
+.nature{
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+    font-weight: bold;
+
+}
+.emoji{
+    font-size: 80px;
+    margin: 10px;
+    padding: 5px;
+    font-weight: bold;
+}
+.errormsg{
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+    font-weight: bold;
+}
